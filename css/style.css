@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #293241;
+    color: #DFFBFC;
+}
+
+.container {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-content {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #EE6B4D;
+    padding: 3%;
+    border-radius: 16px;
+}                                   
+
+.content-title {                            
+    font-size: 32px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.content-name {
+    color: #293241;
+}
+
+.content-text {
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-link {
+    background-color: #293241;
+    color: #EE6B4D;
+    width: 220px;
+    text-align: center;
+    border-radius: 16px;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+
+img {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+}
